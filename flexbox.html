@@ -5,8 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        
+        .box{
+            width:150px;
+            height:150px;
+        }
+        .red{
+             background-color: red;  
+          
+            }
+            .green{
+                background-color: green;
+            
+            }
+            .blue{
+                background-color: blue;
+             
+        } 
+        .container{
+            height: 100vw;
+            width: 100vh;
+            border:2px solid red;
+            display:flex;
+            flex-flow:column nowrap;
+            
+            /* flex-direction: column-reverse; */
+        }
+        .container2{
+          height:800px;
+          width:800px;  
+          border:1px solid black;
+          display: flex;
+          gap:10px;
+          flex-direction: row;
+          /*centreando por el eje X*/
+          justify-content:center;
+          /*centreando por el eje Y*/
+          align-items: center;
+          flex-wrap: row wrap;
+
+        }
+    </style>
 </head>
 <body>
+   
+   <div class="container">
+       <div class="box red"></div>
+       <div class="box green"></div>
+       <div class="box blue"></div>
+
+   </div>
+   
+   <div class="container2">
+   
+    <a href="#">Hola</a>
+    <a href="#">Hola</a>
+    <a href="#">Hola</a>
+
+</div>
+
     
 </body>
 </html>
